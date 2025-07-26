@@ -18,7 +18,7 @@ jobs:
         dotnet-version: 9.0.x
 
     - name: Build Project
-      run: dotnet build
+      run: dotnet build DotnetDockerDemo/DotnetDockerDemo.csproj
 
     - name: Publish Project
       run: dotnet publish -c Release -o out
