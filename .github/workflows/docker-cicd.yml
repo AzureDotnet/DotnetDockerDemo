@@ -2,35 +2,39 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 9.0.x
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
 
-    - name: Build Project
-      run: dotnet build DotnetDockerDemo/DotnetDockerDemo.csproj
+      - name: Restore dependencies
+        run: dotnet restore DotnetDockerDemo.csproj
 
-    - name: Publish Project
-      run: dotnet publish -c Release -o out
+      - name: Build project
+        run: dotnet build DotnetDockerDemo.csproj --no-restore --configuration Release
 
-    - name: Login to DockerHub
-      uses: docker/login-action@v2
-      with:
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Publish project
+        run: dotnet publish DotnetDockerDemo.csproj --no-build --configuration Release -o out
 
-    - name: Build Docker Image
-      run: docker build -t ritwik4567/dotnet-docker-demo:latest .
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: Push Docker Image
-      run: docker push ritwik4567/dotnet-docker-demo:latest
+      - name: Build Docker image
+        run: docker build -t yourdockerhubusername/dotnet-docker-demo:latest .
+
+      - name: Push Docker image
+        run: docker push yourdockerhubusername/dotnet-docker-demo:latest
