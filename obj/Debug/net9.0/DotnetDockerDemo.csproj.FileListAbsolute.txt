@@ -1,0 +1,14 @@
+C:\DotnetDockerDemo\bin\Debug\net9.0\DotnetDockerDemo.exe
+C:\DotnetDockerDemo\bin\Debug\net9.0\DotnetDockerDemo.deps.json
+C:\DotnetDockerDemo\bin\Debug\net9.0\DotnetDockerDemo.runtimeconfig.json
+C:\DotnetDockerDemo\bin\Debug\net9.0\DotnetDockerDemo.dll
+C:\DotnetDockerDemo\bin\Debug\net9.0\DotnetDockerDemo.pdb
+C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.AssemblyInfoInputs.cache
+C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.AssemblyInfo.cs
+C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.csproj.CoreCompileInputs.cache
+C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.dll
+C:\DotnetDockerDemo\obj\Debug\net9.0\refint\DotnetDockerDemo.dll
+C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.pdb
+C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.genruntimeconfig.cache
+C:\DotnetDockerDemo\obj\Debug\net9.0\ref\DotnetDockerDemo.dll
