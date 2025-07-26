@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetDockerDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdf3802f391a7d3b6b1e79eac014a2ca1e1c5102")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4462b659570fa5c8fc18fe4466080ab216ac2cb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetDockerDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetDockerDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@ C:\DotnetDockerDemo\obj\Debug\net9.0\refint\DotnetDockerDemo.dll
 C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.pdb
 C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.genruntimeconfig.cache
 C:\DotnetDockerDemo\obj\Debug\net9.0\ref\DotnetDockerDemo.dll
+C:\DotnetDockerDemo\obj\Debug\net9.0\DotnetDockerDemo.sourcelink.json
