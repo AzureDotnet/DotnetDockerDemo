@@ -34,7 +34,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t yourdockerhubusername/dotnet-docker-demo:latest .
+        run: docker build -t ritwik4567/dotnet-docker-demo:latest .
 
       - name: Push Docker image
-        run: docker push yourdockerhubusername/dotnet-docker-demo:latest
+        run: docker push ritwik4567/dotnet-docker-demo:latest
